@@ -1,0 +1,21 @@
+{
+  "name": "fruithorti-api",
+  "version": "1.0.0",
+  "description": "api-server for fruithorti",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js",
+    "test": "npm run test"
+  },
+  "author": "Priscila Catao",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.25.0",
+    "cors": "^2.8.5",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
